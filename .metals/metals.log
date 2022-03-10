@@ -1,0 +1,78 @@
+2022.03.09 22:31:24 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/.metals/lsp.trace.json or /Users/yanggang/Library/Caches/org.scalameta.metals/lsp.trace.json
+2022.03.09 22:31:25 INFO  logging to file /Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/.metals/metals.log
+2022.03.09 22:31:25 INFO  Started: Metals version 0.11.2 in workspace '/Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala' for client Visual Studio Code 1.65.1.
+2022.03.09 22:31:25 INFO  Parse release: 11
+2022.03.09 22:31:29 INFO  time: initialize in 4.02s
+2022.03.09 22:31:30 WARN  Build server is not auto-connectable.
+2022.03.09 22:31:30 WARN  no build tool detected in workspace '/Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2022.03.09 22:31:33 WARN  no build target for: /Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course 1/scala-project/build.sbt
+2022.03.09 22:31:40 INFO  no build target found for /Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course 1/scala-project/build.sbt. Using presentation compiler with project's scala-library version: 3.1.1
+2022.03.09 22:31:42 INFO  time: code lens generation in 9.59s
+2022.03.09 22:32:28 INFO  no build target found for /Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course 1/scala-project/src/main/scala/example/example.worksheet.sc. Using presentation compiler with project's scala-library version: 3.1.1
+2022.03.09 22:32:28 ERROR worksheet: /Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course 1/scala-project/src/main/scala/example/example.worksheet.sc
+java.lang.IllegalArgumentException: Illegal character in path at index 64: file:///Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course 1/scala-project/src/main/scala/example/example.worksheet.sc
+	at java.net.URI.create(URI.java:883)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:103)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:99)
+	at scala.meta.internal.parsing.Trees.tokenized(Trees.scala:112)
+	at scala.meta.internal.parsing.TokenEditDistance$.apply(TokenEditDistance.scala:383)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:195)
+	at scala.meta.internal.metals.Diagnostics.onPublishDiagnostics(Diagnostics.scala:155)
+	at scala.meta.internal.worksheets.WorksheetProvider.scala$meta$internal$worksheets$WorksheetProvider$$evaluateWorksheet(WorksheetProvider.scala:394)
+	at scala.meta.internal.worksheets.WorksheetProvider$$anon$1.liftedTree1$1(WorksheetProvider.scala:267)
+	at scala.meta.internal.worksheets.WorksheetProvider$$anon$1.run(WorksheetProvider.scala:267)
+Caused by: java.net.URISyntaxException: Illegal character in path at index 64: file:///Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course 1/scala-project/src/main/scala/example/example.worksheet.sc
+	at java.net.URI$Parser.fail(URI.java:2915)
+	at java.net.URI$Parser.checkChars(URI.java:3086)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3168)
+	at java.net.URI$Parser.parse(URI.java:3116)
+	at java.net.URI.<init>(URI.java:600)
+	at java.net.URI.create(URI.java:881)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:103)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:99)
+	at scala.meta.internal.parsing.Trees.tokenized(Trees.scala:112)
+	at scala.meta.internal.parsing.TokenEditDistance$.apply(TokenEditDistance.scala:383)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:195)
+	at scala.meta.internal.metals.Diagnostics.onPublishDiagnostics(Diagnostics.scala:155)
+	at scala.meta.internal.worksheets.WorksheetProvider.scala$meta$internal$worksheets$WorksheetProvider$$evaluateWorksheet(WorksheetProvider.scala:394)
+	at scala.meta.internal.worksheets.WorksheetProvider$$anon$1.liftedTree1$1(WorksheetProvider.scala:267)
+	at scala.meta.internal.worksheets.WorksheetProvider$$anon$1.run(WorksheetProvider.scala:267)
+
+2022.03.09 22:32:28 INFO  time: evaluated worksheet 'example.worksheet.sc' in 13s
+2022.03.09 22:32:43 WARN  no build tool detected in workspace '/Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2022.03.09 22:33:03 WARN  no build target for: /Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course 1/scala-project/build.sbt
+2022.03.09 22:33:06 ERROR worksheet: /Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course 1/scala-project/src/main/scala/example/example.worksheet.sc
+java.lang.IllegalArgumentException: Illegal character in path at index 64: file:///Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course 1/scala-project/src/main/scala/example/example.worksheet.sc
+	at java.net.URI.create(URI.java:883)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:103)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:99)
+	at scala.meta.internal.parsing.Trees.tokenized(Trees.scala:112)
+	at scala.meta.internal.parsing.TokenEditDistance$.apply(TokenEditDistance.scala:383)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:195)
+	at scala.meta.internal.metals.Diagnostics.onPublishDiagnostics(Diagnostics.scala:155)
+	at scala.meta.internal.worksheets.WorksheetProvider.scala$meta$internal$worksheets$WorksheetProvider$$evaluateWorksheet(WorksheetProvider.scala:394)
+	at scala.meta.internal.worksheets.WorksheetProvider$$anon$1.liftedTree1$1(WorksheetProvider.scala:267)
+	at scala.meta.internal.worksheets.WorksheetProvider$$anon$1.run(WorksheetProvider.scala:267)
+Caused by: java.net.URISyntaxException: Illegal character in path at index 64: file:///Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course 1/scala-project/src/main/scala/example/example.worksheet.sc
+	at java.net.URI$Parser.fail(URI.java:2915)
+	at java.net.URI$Parser.checkChars(URI.java:3086)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3168)
+	at java.net.URI$Parser.parse(URI.java:3116)
+	at java.net.URI.<init>(URI.java:600)
+	at java.net.URI.create(URI.java:881)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:103)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:99)
+	at scala.meta.internal.parsing.Trees.tokenized(Trees.scala:112)
+	at scala.meta.internal.parsing.TokenEditDistance$.apply(TokenEditDistance.scala:383)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:195)
+	at scala.meta.internal.metals.Diagnostics.onPublishDiagnostics(Diagnostics.scala:155)
+	at scala.meta.internal.worksheets.WorksheetProvider.scala$meta$internal$worksheets$WorksheetProvider$$evaluateWorksheet(WorksheetProvider.scala:394)
+	at scala.meta.internal.worksheets.WorksheetProvider$$anon$1.liftedTree1$1(WorksheetProvider.scala:267)
+	at scala.meta.internal.worksheets.WorksheetProvider$$anon$1.run(WorksheetProvider.scala:267)
+
+2022.03.09 22:33:06 INFO  time: evaluated worksheet 'example.worksheet.sc' in 1.14s
+2022.03.09 22:33:12 WARN  no build tool detected in workspace '/Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2022.03.09 22:33:20 WARN  Build server is not auto-connectable.
+2022.03.09 22:33:23 WARN  no build tool detected in workspace '/Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2022.03.09 22:33:34 WARN  no build tool detected in workspace '/Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2022.03.09 22:33:39 WARN  no build target for: /Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course 1/scala-project/build.sbt
