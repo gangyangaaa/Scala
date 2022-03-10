@@ -1,0 +1,6 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(console, Some(d0179278-5379-4333-bf91-f144dafba190), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / console[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mNon-compiled module 'compiler-bridge_2.12' for Scala 2.12.15. Compiling...[0m
+[0m[[0m[0minfo[0m] [0m[0m  Compilation completed in 16.213s.[0m
+[0m[[0m[0minfo[0m] [0m[0mStarting scala interpreter...[0m

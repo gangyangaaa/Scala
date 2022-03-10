@@ -76,3 +76,934 @@ Caused by: java.net.URISyntaxException: Illegal character in path at index 64: f
 2022.03.09 22:33:23 WARN  no build tool detected in workspace '/Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
 2022.03.09 22:33:34 WARN  no build tool detected in workspace '/Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
 2022.03.09 22:33:39 WARN  no build target for: /Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course 1/scala-project/build.sbt
+2022.03.09 22:38:30 INFO  shutting down Metals
+2022.03.09 22:38:51 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/.metals/lsp.trace.json or /Users/yanggang/Library/Caches/org.scalameta.metals/lsp.trace.json
+2022.03.09 22:38:51 INFO  logging to file /Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/.metals/metals.log
+2022.03.09 22:38:51 INFO  Started: Metals version 0.11.2 in workspace '/Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala' for client Visual Studio Code 1.65.1.
+2022.03.09 22:38:51 INFO  Parse release: 11
+2022.03.09 22:38:54 INFO  time: initialize in 3.11s
+2022.03.09 22:38:55 WARN  Build server is not auto-connectable.
+2022.03.09 22:38:55 WARN  no build tool detected in workspace '/Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+Mar 09, 2022 10:38:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+Mar 09, 2022 10:39:03 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2022.03.09 22:39:05 INFO  no build target found for /Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course 1/scala-project/src/main/scala/example/example.worksheet.sc. Using presentation compiler with project's scala-library version: 3.1.1
+2022.03.09 22:39:09 INFO  time: code lens generation in 10s
+2022.03.09 22:39:11 INFO  no build target found for /Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course 1/scala-project/src/main/scala/example/example.worksheet.sc. Using presentation compiler with project's scala-library version: 3.1.1
+2022.03.09 22:39:11 ERROR worksheet: /Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course 1/scala-project/src/main/scala/example/example.worksheet.sc
+java.lang.IllegalArgumentException: Illegal character in path at index 64: file:///Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course 1/scala-project/src/main/scala/example/example.worksheet.sc
+	at java.net.URI.create(URI.java:883)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:103)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:99)
+	at scala.meta.internal.parsing.Trees.tokenized(Trees.scala:112)
+	at scala.meta.internal.parsing.TokenEditDistance$.apply(TokenEditDistance.scala:383)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:195)
+	at scala.meta.internal.metals.Diagnostics.onPublishDiagnostics(Diagnostics.scala:155)
+	at scala.meta.internal.worksheets.WorksheetProvider.scala$meta$internal$worksheets$WorksheetProvider$$evaluateWorksheet(WorksheetProvider.scala:394)
+	at scala.meta.internal.worksheets.WorksheetProvider$$anon$1.liftedTree1$1(WorksheetProvider.scala:267)
+	at scala.meta.internal.worksheets.WorksheetProvider$$anon$1.run(WorksheetProvider.scala:267)
+Caused by: java.net.URISyntaxException: Illegal character in path at index 64: file:///Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course 1/scala-project/src/main/scala/example/example.worksheet.sc
+	at java.net.URI$Parser.fail(URI.java:2915)
+	at java.net.URI$Parser.checkChars(URI.java:3086)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3168)
+	at java.net.URI$Parser.parse(URI.java:3116)
+	at java.net.URI.<init>(URI.java:600)
+	at java.net.URI.create(URI.java:881)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:103)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:99)
+	at scala.meta.internal.parsing.Trees.tokenized(Trees.scala:112)
+	at scala.meta.internal.parsing.TokenEditDistance$.apply(TokenEditDistance.scala:383)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:195)
+	at scala.meta.internal.metals.Diagnostics.onPublishDiagnostics(Diagnostics.scala:155)
+	at scala.meta.internal.worksheets.WorksheetProvider.scala$meta$internal$worksheets$WorksheetProvider$$evaluateWorksheet(WorksheetProvider.scala:394)
+	at scala.meta.internal.worksheets.WorksheetProvider$$anon$1.liftedTree1$1(WorksheetProvider.scala:267)
+	at scala.meta.internal.worksheets.WorksheetProvider$$anon$1.run(WorksheetProvider.scala:267)
+
+2022.03.09 22:39:11 INFO  time: evaluated worksheet 'example.worksheet.sc' in 12s
+2022.03.09 22:39:13 WARN  no build target for: /Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course 1/scala-project/build.sbt
+2022.03.09 22:48:03 WARN  no build target for: /Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course 1/example/src/main/scala/example/Lists.scala
+2022.03.09 22:48:06 WARN  no build target for: /Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course 1/example/build.sbt
+2022.03.09 22:48:11 WARN  no build target for: /Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course 1/example/src/main/scala/example/Lists.scala
+Mar 09, 2022 10:53:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didChange",
+  "params": {
+    "textDocument": {
+      "version": 2,
+      "uri": "file:///Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course%201/example/src/main/scala/example/Lists.scala"
+    },
+    "contentChanges": [
+      {
+        "text": "package example\n\nobject Lists:\n\n  /**\n   * This method computes the sum of all elements in the list xs. There are\n   * multiple techniques that can be used for implementing this method, and\n   * you will learn during the class.\n   *\n   * For this example assignment you can use the following methods in class\n   * `List`:\n   *\n   *  - `xs.isEmpty: Boolean` returns `true` if the list `xs` is empty\n   *  - `xs.head: Int` returns the head element of the list `xs`. If the list\n   *    is empty an exception is thrown\n   *  - `xs.tail: List[Int]` returns the tail of the list `xs`, i.e. the the\n   *    list `xs` without its `head` element\n   *\n   *  \u0027\u0027Hint:\u0027\u0027 instead of writing a `for` or `while` loop, think of a recursive\n   *  solution.\n   *\n   * @param xs A list of natural numbers\n   * @return The sum of all elements in `xs`\n   */\n  def sum(xs: List[Int]): Int \u003d ??\n\n  /**\n   * This method returns the largest element in a list of integers. If the\n   * list `xs` is empty it throws a `java.util.NoSuchElementException`.\n   *\n   * You can use the same methods of the class `List` as mentioned above.\n   *\n   * \u0027\u0027Hint:\u0027\u0027 Again, think of a recursive solution instead of using looping\n   * constructs. You might need to define an auxiliary method.\n   *\n   * @param xs A list of natural numbers\n   * @return The largest element in `xs`\n   * @throws java.util.NoSuchElementException if `xs` is an empty list\n   */\n  def max(xs: List[Int]): Int \u003d ???\n"
+      }
+    ]
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: Illegal character in path at index 64: file:///Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course 1/example/src/main/scala/example/Lists.scala
+	at java.base/java.net.URI.create(URI.java:883)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:103)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:99)
+	at scala.meta.internal.parsing.Trees.tokenized(Trees.scala:112)
+	at scala.meta.internal.parsing.TokenEditDistance$.apply(TokenEditDistance.scala:383)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:195)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:164)
+	at scala.meta.internal.metals.Diagnostics.didChange(Diagnostics.scala:112)
+	at scala.meta.internal.metals.MetalsLanguageServer.didChange(MetalsLanguageServer.scala:1193)
+	... 16 more
+Caused by: java.net.URISyntaxException: Illegal character in path at index 64: file:///Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course 1/example/src/main/scala/example/Lists.scala
+	at java.base/java.net.URI$Parser.fail(URI.java:2915)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3086)
+	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3168)
+	at java.base/java.net.URI$Parser.parse(URI.java:3116)
+	at java.base/java.net.URI.<init>(URI.java:600)
+	at java.base/java.net.URI.create(URI.java:881)
+	... 24 more
+
+Mar 09, 2022 10:53:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.IllegalArgumentException: Illegal character in path at index 64: file:///Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course 1/example/src/main/scala/example/Lists.scala
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Illegal character in path at index 64: file:///Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course 1/example/src/main/scala/example/Lists.scala
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.IllegalArgumentException: Illegal character in path at index 64: file:///Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course 1/example/src/main/scala/example/Lists.scala
+	at java.base/java.net.URI.create(URI.java:883)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:103)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:99)
+	at scala.meta.internal.parsing.Trees.tokenized(Trees.scala:112)
+	at scala.meta.internal.parsing.TokenEditDistance$.apply(TokenEditDistance.scala:383)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForScala$3(FoldingRangeProvider.scala:38)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForScala$2(FoldingRangeProvider.scala:33)
+	at scala.Option$WithFilter.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForScala(FoldingRangeProvider.scala:31)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$2(MetalsLanguageServer.scala:1640)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+Caused by: java.net.URISyntaxException: Illegal character in path at index 64: file:///Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course 1/example/src/main/scala/example/Lists.scala
+	at java.base/java.net.URI$Parser.fail(URI.java:2915)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3086)
+	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3168)
+	at java.base/java.net.URI$Parser.parse(URI.java:3116)
+	at java.base/java.net.URI.<init>(URI.java:600)
+	at java.base/java.net.URI.create(URI.java:881)
+	... 19 more
+
+Mar 09, 2022 10:53:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didChange",
+  "params": {
+    "textDocument": {
+      "version": 3,
+      "uri": "file:///Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course%201/example/src/main/scala/example/Lists.scala"
+    },
+    "contentChanges": [
+      {
+        "text": "package example\n\nobject Lists:\n\n  /**\n   * This method computes the sum of all elements in the list xs. There are\n   * multiple techniques that can be used for implementing this method, and\n   * you will learn during the class.\n   *\n   * For this example assignment you can use the following methods in class\n   * `List`:\n   *\n   *  - `xs.isEmpty: Boolean` returns `true` if the list `xs` is empty\n   *  - `xs.head: Int` returns the head element of the list `xs`. If the list\n   *    is empty an exception is thrown\n   *  - `xs.tail: List[Int]` returns the tail of the list `xs`, i.e. the the\n   *    list `xs` without its `head` element\n   *\n   *  \u0027\u0027Hint:\u0027\u0027 instead of writing a `for` or `while` loop, think of a recursive\n   *  solution.\n   *\n   * @param xs A list of natural numbers\n   * @return The sum of all elements in `xs`\n   */\n  def sum(xs: List[Int]): Int \u003d ?\n\n  /**\n   * This method returns the largest element in a list of integers. If the\n   * list `xs` is empty it throws a `java.util.NoSuchElementException`.\n   *\n   * You can use the same methods of the class `List` as mentioned above.\n   *\n   * \u0027\u0027Hint:\u0027\u0027 Again, think of a recursive solution instead of using looping\n   * constructs. You might need to define an auxiliary method.\n   *\n   * @param xs A list of natural numbers\n   * @return The largest element in `xs`\n   * @throws java.util.NoSuchElementException if `xs` is an empty list\n   */\n  def max(xs: List[Int]): Int \u003d ???\n"
+      }
+    ]
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: Illegal character in path at index 64: file:///Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course 1/example/src/main/scala/example/Lists.scala
+	at java.base/java.net.URI.create(URI.java:883)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:103)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:99)
+	at scala.meta.internal.parsing.Trees.tokenized(Trees.scala:112)
+	at scala.meta.internal.parsing.TokenEditDistance$.apply(TokenEditDistance.scala:383)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:195)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:164)
+	at scala.meta.internal.metals.Diagnostics.didChange(Diagnostics.scala:112)
+	at scala.meta.internal.metals.MetalsLanguageServer.didChange(MetalsLanguageServer.scala:1193)
+	... 16 more
+Caused by: java.net.URISyntaxException: Illegal character in path at index 64: file:///Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course 1/example/src/main/scala/example/Lists.scala
+	at java.base/java.net.URI$Parser.fail(URI.java:2915)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3086)
+	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3168)
+	at java.base/java.net.URI$Parser.parse(URI.java:3116)
+	at java.base/java.net.URI.<init>(URI.java:600)
+	at java.base/java.net.URI.create(URI.java:881)
+	... 24 more
+
+Mar 09, 2022 10:53:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.IllegalArgumentException: Illegal character in path at index 64: file:///Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course 1/example/src/main/scala/example/Lists.scala
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Illegal character in path at index 64: file:///Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course 1/example/src/main/scala/example/Lists.scala
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.IllegalArgumentException: Illegal character in path at index 64: file:///Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course 1/example/src/main/scala/example/Lists.scala
+	at java.base/java.net.URI.create(URI.java:883)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:103)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:99)
+	at scala.meta.internal.parsing.Trees.tokenized(Trees.scala:112)
+	at scala.meta.internal.parsing.TokenEditDistance$.apply(TokenEditDistance.scala:383)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForScala$3(FoldingRangeProvider.scala:38)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForScala$2(FoldingRangeProvider.scala:33)
+	at scala.Option$WithFilter.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForScala(FoldingRangeProvider.scala:31)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$2(MetalsLanguageServer.scala:1640)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+Caused by: java.net.URISyntaxException: Illegal character in path at index 64: file:///Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course 1/example/src/main/scala/example/Lists.scala
+	at java.base/java.net.URI$Parser.fail(URI.java:2915)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3086)
+	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3168)
+	at java.base/java.net.URI$Parser.parse(URI.java:3116)
+	at java.base/java.net.URI.<init>(URI.java:600)
+	at java.base/java.net.URI.create(URI.java:881)
+	... 19 more
+
+Mar 09, 2022 10:53:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didChange",
+  "params": {
+    "textDocument": {
+      "version": 4,
+      "uri": "file:///Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course%201/example/src/main/scala/example/Lists.scala"
+    },
+    "contentChanges": [
+      {
+        "text": "package example\n\nobject Lists:\n\n  /**\n   * This method computes the sum of all elements in the list xs. There are\n   * multiple techniques that can be used for implementing this method, and\n   * you will learn during the class.\n   *\n   * For this example assignment you can use the following methods in class\n   * `List`:\n   *\n   *  - `xs.isEmpty: Boolean` returns `true` if the list `xs` is empty\n   *  - `xs.head: Int` returns the head element of the list `xs`. If the list\n   *    is empty an exception is thrown\n   *  - `xs.tail: List[Int]` returns the tail of the list `xs`, i.e. the the\n   *    list `xs` without its `head` element\n   *\n   *  \u0027\u0027Hint:\u0027\u0027 instead of writing a `for` or `while` loop, think of a recursive\n   *  solution.\n   *\n   * @param xs A list of natural numbers\n   * @return The sum of all elements in `xs`\n   */\n  def sum(xs: List[Int]): Int \u003d \n\n  /**\n   * This method returns the largest element in a list of integers. If the\n   * list `xs` is empty it throws a `java.util.NoSuchElementException`.\n   *\n   * You can use the same methods of the class `List` as mentioned above.\n   *\n   * \u0027\u0027Hint:\u0027\u0027 Again, think of a recursive solution instead of using looping\n   * constructs. You might need to define an auxiliary method.\n   *\n   * @param xs A list of natural numbers\n   * @return The largest element in `xs`\n   * @throws java.util.NoSuchElementException if `xs` is an empty list\n   */\n  def max(xs: List[Int]): Int \u003d ???\n"
+      }
+    ]
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: Illegal character in path at index 64: file:///Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course 1/example/src/main/scala/example/Lists.scala
+	at java.base/java.net.URI.create(URI.java:883)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:103)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:99)
+	at scala.meta.internal.parsing.Trees.tokenized(Trees.scala:112)
+	at scala.meta.internal.parsing.TokenEditDistance$.apply(TokenEditDistance.scala:383)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:195)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:164)
+	at scala.meta.internal.metals.Diagnostics.didChange(Diagnostics.scala:112)
+	at scala.meta.internal.metals.MetalsLanguageServer.didChange(MetalsLanguageServer.scala:1193)
+	... 16 more
+Caused by: java.net.URISyntaxException: Illegal character in path at index 64: file:///Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course 1/example/src/main/scala/example/Lists.scala
+	at java.base/java.net.URI$Parser.fail(URI.java:2915)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3086)
+	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3168)
+	at java.base/java.net.URI$Parser.parse(URI.java:3116)
+	at java.base/java.net.URI.<init>(URI.java:600)
+	at java.base/java.net.URI.create(URI.java:881)
+	... 24 more
+
+Mar 09, 2022 10:53:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.IllegalArgumentException: Illegal character in path at index 64: file:///Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course 1/example/src/main/scala/example/Lists.scala
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Illegal character in path at index 64: file:///Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course 1/example/src/main/scala/example/Lists.scala
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.IllegalArgumentException: Illegal character in path at index 64: file:///Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course 1/example/src/main/scala/example/Lists.scala
+	at java.base/java.net.URI.create(URI.java:883)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:103)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:99)
+	at scala.meta.internal.parsing.Trees.tokenized(Trees.scala:112)
+	at scala.meta.internal.parsing.TokenEditDistance$.apply(TokenEditDistance.scala:383)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForScala$3(FoldingRangeProvider.scala:38)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForScala$2(FoldingRangeProvider.scala:33)
+	at scala.Option$WithFilter.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForScala(FoldingRangeProvider.scala:31)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$2(MetalsLanguageServer.scala:1640)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+Caused by: java.net.URISyntaxException: Illegal character in path at index 64: file:///Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course 1/example/src/main/scala/example/Lists.scala
+	at java.base/java.net.URI$Parser.fail(URI.java:2915)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3086)
+	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3168)
+	at java.base/java.net.URI$Parser.parse(URI.java:3116)
+	at java.base/java.net.URI.<init>(URI.java:600)
+	at java.base/java.net.URI.create(URI.java:881)
+	... 19 more
+
+Mar 09, 2022 10:53:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.IllegalArgumentException: Illegal character in path at index 64: file:///Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course 1/example/src/main/scala/example/Lists.scala
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Illegal character in path at index 64: file:///Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course 1/example/src/main/scala/example/Lists.scala
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.IllegalArgumentException: Illegal character in path at index 64: file:///Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course 1/example/src/main/scala/example/Lists.scala
+	at java.base/java.net.URI.create(URI.java:883)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:103)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:99)
+	at scala.meta.internal.parsing.Trees.tokenized(Trees.scala:112)
+	at scala.meta.internal.parsing.TokenEditDistance$.apply(TokenEditDistance.scala:383)
+	at scala.meta.internal.metals.Buffers.tokenEditDistance(Buffers.scala:30)
+	at scala.meta.internal.metals.codelenses.RunTestCodeLens.codeLenses(RunTestCodeLens.scala:63)
+	at scala.meta.internal.metals.CodeLensProvider.$anonfun$findLenses$3(CodeLensProvider.scala:26)
+	at scala.collection.immutable.List.flatMap(List.scala:366)
+	at scala.meta.internal.metals.CodeLensProvider.$anonfun$findLenses$2(CodeLensProvider.scala:26)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.metals.CodeLensProvider.findLenses(CodeLensProvider.scala:24)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$2(MetalsLanguageServer.scala:1628)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$1(MetalsLanguageServer.scala:1626)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+Caused by: java.net.URISyntaxException: Illegal character in path at index 64: file:///Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course 1/example/src/main/scala/example/Lists.scala
+	at java.base/java.net.URI$Parser.fail(URI.java:2915)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3086)
+	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3168)
+	at java.base/java.net.URI$Parser.parse(URI.java:3116)
+	at java.base/java.net.URI.<init>(URI.java:600)
+	at java.base/java.net.URI.create(URI.java:881)
+	... 25 more
+
+Mar 09, 2022 10:53:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didChange",
+  "params": {
+    "textDocument": {
+      "version": 5,
+      "uri": "file:///Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course%201/example/src/main/scala/example/Lists.scala"
+    },
+    "contentChanges": [
+      {
+        "text": "package example\n\nobject Lists:\n\n  /**\n   * This method computes the sum of all elements in the list xs. There are\n   * multiple techniques that can be used for implementing this method, and\n   * you will learn during the class.\n   *\n   * For this example assignment you can use the following methods in class\n   * `List`:\n   *\n   *  - `xs.isEmpty: Boolean` returns `true` if the list `xs` is empty\n   *  - `xs.head: Int` returns the head element of the list `xs`. If the list\n   *    is empty an exception is thrown\n   *  - `xs.tail: List[Int]` returns the tail of the list `xs`, i.e. the the\n   *    list `xs` without its `head` element\n   *\n   *  \u0027\u0027Hint:\u0027\u0027 instead of writing a `for` or `while` loop, think of a recursive\n   *  solution.\n   *\n   * @param xs A list of natural numbers\n   * @return The sum of all elements in `xs`\n   */\n  def sum(xs: List[Int]): Int \u003d L\n\n  /**\n   * This method returns the largest element in a list of integers. If the\n   * list `xs` is empty it throws a `java.util.NoSuchElementException`.\n   *\n   * You can use the same methods of the class `List` as mentioned above.\n   *\n   * \u0027\u0027Hint:\u0027\u0027 Again, think of a recursive solution instead of using looping\n   * constructs. You might need to define an auxiliary method.\n   *\n   * @param xs A list of natural numbers\n   * @return The largest element in `xs`\n   * @throws java.util.NoSuchElementException if `xs` is an empty list\n   */\n  def max(xs: List[Int]): Int \u003d ???\n"
+      }
+    ]
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: Illegal character in path at index 64: file:///Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course 1/example/src/main/scala/example/Lists.scala
+	at java.base/java.net.URI.create(URI.java:883)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:103)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:99)
+	at scala.meta.internal.parsing.Trees.tokenized(Trees.scala:112)
+	at scala.meta.internal.parsing.TokenEditDistance$.apply(TokenEditDistance.scala:383)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:195)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:164)
+	at scala.meta.internal.metals.Diagnostics.didChange(Diagnostics.scala:112)
+	at scala.meta.internal.metals.MetalsLanguageServer.didChange(MetalsLanguageServer.scala:1193)
+	... 16 more
+Caused by: java.net.URISyntaxException: Illegal character in path at index 64: file:///Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course 1/example/src/main/scala/example/Lists.scala
+	at java.base/java.net.URI$Parser.fail(URI.java:2915)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3086)
+	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3168)
+	at java.base/java.net.URI$Parser.parse(URI.java:3116)
+	at java.base/java.net.URI.<init>(URI.java:600)
+	at java.base/java.net.URI.create(URI.java:881)
+	... 24 more
+
+Mar 09, 2022 10:53:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didChange",
+  "params": {
+    "textDocument": {
+      "version": 7,
+      "uri": "file:///Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course%201/example/src/main/scala/example/Lists.scala"
+    },
+    "contentChanges": [
+      {
+        "text": "package example\n\nobject Lists:\n\n  /**\n   * This method computes the sum of all elements in the list xs. There are\n   * multiple techniques that can be used for implementing this method, and\n   * you will learn during the class.\n   *\n   * For this example assignment you can use the following methods in class\n   * `List`:\n   *\n   *  - `xs.isEmpty: Boolean` returns `true` if the list `xs` is empty\n   *  - `xs.head: Int` returns the head element of the list `xs`. If the list\n   *    is empty an exception is thrown\n   *  - `xs.tail: List[Int]` returns the tail of the list `xs`, i.e. the the\n   *    list `xs` without its `head` element\n   *\n   *  \u0027\u0027Hint:\u0027\u0027 instead of writing a `for` or `while` loop, think of a recursive\n   *  solution.\n   *\n   * @param xs A list of natural numbers\n   * @return The sum of all elements in `xs`\n   */\n  def sum(xs: List[Int]): Int \u003d Lis\n\n  /**\n   * This method returns the largest element in a list of integers. If the\n   * list `xs` is empty it throws a `java.util.NoSuchElementException`.\n   *\n   * You can use the same methods of the class `List` as mentioned above.\n   *\n   * \u0027\u0027Hint:\u0027\u0027 Again, think of a recursive solution instead of using looping\n   * constructs. You might need to define an auxiliary method.\n   *\n   * @param xs A list of natural numbers\n   * @return The largest element in `xs`\n   * @throws java.util.NoSuchElementException if `xs` is an empty list\n   */\n  def max(xs: List[Int]): Int \u003d ???\n"
+      }
+    ]
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: Illegal character in path at index 64: file:///Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course 1/example/src/main/scala/example/Lists.scala
+	at java.base/java.net.URI.create(URI.java:883)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:103)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:99)
+	at scala.meta.internal.parsing.Trees.tokenized(Trees.scala:112)
+	at scala.meta.internal.parsing.TokenEditDistance$.apply(TokenEditDistance.scala:383)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:195)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:164)
+	at scala.meta.internal.metals.Diagnostics.didChange(Diagnostics.scala:112)
+	at scala.meta.internal.metals.MetalsLanguageServer.didChange(MetalsLanguageServer.scala:1193)
+	... 16 more
+Caused by: java.net.URISyntaxException: Illegal character in path at index 64: file:///Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course 1/example/src/main/scala/example/Lists.scala
+	at java.base/java.net.URI$Parser.fail(URI.java:2915)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3086)
+	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3168)
+	at java.base/java.net.URI$Parser.parse(URI.java:3116)
+	at java.base/java.net.URI.<init>(URI.java:600)
+	at java.base/java.net.URI.create(URI.java:881)
+	... 24 more
+
+Mar 09, 2022 10:53:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.IllegalArgumentException: Illegal character in path at index 64: file:///Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course 1/example/src/main/scala/example/Lists.scala
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Illegal character in path at index 64: file:///Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course 1/example/src/main/scala/example/Lists.scala
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.IllegalArgumentException: Illegal character in path at index 64: file:///Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course 1/example/src/main/scala/example/Lists.scala
+	at java.base/java.net.URI.create(URI.java:883)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:103)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:99)
+	at scala.meta.internal.parsing.Trees.tokenized(Trees.scala:112)
+	at scala.meta.internal.parsing.TokenEditDistance$.apply(TokenEditDistance.scala:383)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForScala$3(FoldingRangeProvider.scala:38)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForScala$2(FoldingRangeProvider.scala:33)
+	at scala.Option$WithFilter.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForScala(FoldingRangeProvider.scala:31)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$2(MetalsLanguageServer.scala:1640)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+Caused by: java.net.URISyntaxException: Illegal character in path at index 64: file:///Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course 1/example/src/main/scala/example/Lists.scala
+	at java.base/java.net.URI$Parser.fail(URI.java:2915)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3086)
+	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3168)
+	at java.base/java.net.URI$Parser.parse(URI.java:3116)
+	at java.base/java.net.URI.<init>(URI.java:600)
+	at java.base/java.net.URI.create(URI.java:881)
+	... 19 more
+
+Mar 09, 2022 10:53:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didChange",
+  "params": {
+    "textDocument": {
+      "version": 8,
+      "uri": "file:///Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course%201/example/src/main/scala/example/Lists.scala"
+    },
+    "contentChanges": [
+      {
+        "text": "package example\n\nobject Lists:\n\n  /**\n   * This method computes the sum of all elements in the list xs. There are\n   * multiple techniques that can be used for implementing this method, and\n   * you will learn during the class.\n   *\n   * For this example assignment you can use the following methods in class\n   * `List`:\n   *\n   *  - `xs.isEmpty: Boolean` returns `true` if the list `xs` is empty\n   *  - `xs.head: Int` returns the head element of the list `xs`. If the list\n   *    is empty an exception is thrown\n   *  - `xs.tail: List[Int]` returns the tail of the list `xs`, i.e. the the\n   *    list `xs` without its `head` element\n   *\n   *  \u0027\u0027Hint:\u0027\u0027 instead of writing a `for` or `while` loop, think of a recursive\n   *  solution.\n   *\n   * @param xs A list of natural numbers\n   * @return The sum of all elements in `xs`\n   */\n  def sum(xs: List[Int]): Int \u003d List\n\n  /**\n   * This method returns the largest element in a list of integers. If the\n   * list `xs` is empty it throws a `java.util.NoSuchElementException`.\n   *\n   * You can use the same methods of the class `List` as mentioned above.\n   *\n   * \u0027\u0027Hint:\u0027\u0027 Again, think of a recursive solution instead of using looping\n   * constructs. You might need to define an auxiliary method.\n   *\n   * @param xs A list of natural numbers\n   * @return The largest element in `xs`\n   * @throws java.util.NoSuchElementException if `xs` is an empty list\n   */\n  def max(xs: List[Int]): Int \u003d ???\n"
+      }
+    ]
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: Illegal character in path at index 64: file:///Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course 1/example/src/main/scala/example/Lists.scala
+	at java.base/java.net.URI.create(URI.java:883)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:103)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:99)
+	at scala.meta.internal.parsing.Trees.tokenized(Trees.scala:112)
+	at scala.meta.internal.parsing.TokenEditDistance$.apply(TokenEditDistance.scala:383)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:195)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:164)
+	at scala.meta.internal.metals.Diagnostics.didChange(Diagnostics.scala:112)
+	at scala.meta.internal.metals.MetalsLanguageServer.didChange(MetalsLanguageServer.scala:1193)
+	... 16 more
+Caused by: java.net.URISyntaxException: Illegal character in path at index 64: file:///Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course 1/example/src/main/scala/example/Lists.scala
+	at java.base/java.net.URI$Parser.fail(URI.java:2915)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3086)
+	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3168)
+	at java.base/java.net.URI$Parser.parse(URI.java:3116)
+	at java.base/java.net.URI.<init>(URI.java:600)
+	at java.base/java.net.URI.create(URI.java:881)
+	... 24 more
+
+Mar 09, 2022 10:53:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.IllegalArgumentException: Illegal character in path at index 64: file:///Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course 1/example/src/main/scala/example/Lists.scala
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Illegal character in path at index 64: file:///Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course 1/example/src/main/scala/example/Lists.scala
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.IllegalArgumentException: Illegal character in path at index 64: file:///Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course 1/example/src/main/scala/example/Lists.scala
+	at java.base/java.net.URI.create(URI.java:883)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:103)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:99)
+	at scala.meta.internal.parsing.Trees.tokenized(Trees.scala:112)
+	at scala.meta.internal.parsing.TokenEditDistance$.apply(TokenEditDistance.scala:383)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForScala$3(FoldingRangeProvider.scala:38)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForScala$2(FoldingRangeProvider.scala:33)
+	at scala.Option$WithFilter.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForScala(FoldingRangeProvider.scala:31)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$2(MetalsLanguageServer.scala:1640)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+Caused by: java.net.URISyntaxException: Illegal character in path at index 64: file:///Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course 1/example/src/main/scala/example/Lists.scala
+	at java.base/java.net.URI$Parser.fail(URI.java:2915)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3086)
+	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3168)
+	at java.base/java.net.URI$Parser.parse(URI.java:3116)
+	at java.base/java.net.URI.<init>(URI.java:600)
+	at java.base/java.net.URI.create(URI.java:881)
+	... 19 more
+
+Mar 09, 2022 10:53:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.IllegalArgumentException: Illegal character in path at index 64: file:///Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course 1/example/src/main/scala/example/Lists.scala
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Illegal character in path at index 64: file:///Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course 1/example/src/main/scala/example/Lists.scala
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.IllegalArgumentException: Illegal character in path at index 64: file:///Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course 1/example/src/main/scala/example/Lists.scala
+	at java.base/java.net.URI.create(URI.java:883)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:103)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:99)
+	at scala.meta.internal.parsing.Trees.tokenized(Trees.scala:112)
+	at scala.meta.internal.parsing.TokenEditDistance$.apply(TokenEditDistance.scala:383)
+	at scala.meta.internal.metals.Buffers.tokenEditDistance(Buffers.scala:30)
+	at scala.meta.internal.metals.codelenses.RunTestCodeLens.codeLenses(RunTestCodeLens.scala:63)
+	at scala.meta.internal.metals.CodeLensProvider.$anonfun$findLenses$3(CodeLensProvider.scala:26)
+	at scala.collection.immutable.List.flatMap(List.scala:366)
+	at scala.meta.internal.metals.CodeLensProvider.$anonfun$findLenses$2(CodeLensProvider.scala:26)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.metals.CodeLensProvider.findLenses(CodeLensProvider.scala:24)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$2(MetalsLanguageServer.scala:1628)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$1(MetalsLanguageServer.scala:1626)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+Caused by: java.net.URISyntaxException: Illegal character in path at index 64: file:///Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course 1/example/src/main/scala/example/Lists.scala
+	at java.base/java.net.URI$Parser.fail(URI.java:2915)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3086)
+	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3168)
+	at java.base/java.net.URI$Parser.parse(URI.java:3116)
+	at java.base/java.net.URI.<init>(URI.java:600)
+	at java.base/java.net.URI.create(URI.java:881)
+	... 25 more
+
+Mar 09, 2022 10:53:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.IllegalArgumentException: Illegal character in path at index 64: file:///Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course 1/example/src/main/scala/example/Lists.scala
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Illegal character in path at index 64: file:///Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course 1/example/src/main/scala/example/Lists.scala
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.IllegalArgumentException: Illegal character in path at index 64: file:///Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course 1/example/src/main/scala/example/Lists.scala
+	at java.base/java.net.URI.create(URI.java:883)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:103)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:99)
+	at scala.meta.internal.parsing.Trees.tokenized(Trees.scala:112)
+	at scala.meta.internal.parsing.TokenEditDistance$.apply(TokenEditDistance.scala:383)
+	at scala.meta.internal.metals.Buffers.tokenEditDistance(Buffers.scala:30)
+	at scala.meta.internal.metals.codelenses.RunTestCodeLens.codeLenses(RunTestCodeLens.scala:63)
+	at scala.meta.internal.metals.CodeLensProvider.$anonfun$findLenses$3(CodeLensProvider.scala:26)
+	at scala.collection.immutable.List.flatMap(List.scala:366)
+	at scala.meta.internal.metals.CodeLensProvider.$anonfun$findLenses$2(CodeLensProvider.scala:26)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.metals.CodeLensProvider.findLenses(CodeLensProvider.scala:24)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$2(MetalsLanguageServer.scala:1628)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$1(MetalsLanguageServer.scala:1626)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+Caused by: java.net.URISyntaxException: Illegal character in path at index 64: file:///Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course 1/example/src/main/scala/example/Lists.scala
+	at java.base/java.net.URI$Parser.fail(URI.java:2915)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3086)
+	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3168)
+	at java.base/java.net.URI$Parser.parse(URI.java:3116)
+	at java.base/java.net.URI.<init>(URI.java:600)
+	at java.base/java.net.URI.create(URI.java:881)
+	... 25 more
+
+Mar 09, 2022 10:54:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didChange",
+  "params": {
+    "textDocument": {
+      "version": 9,
+      "uri": "file:///Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course%201/example/src/main/scala/example/Lists.scala"
+    },
+    "contentChanges": [
+      {
+        "text": "package example\n\nobject Lists:\n\n  /**\n   * This method computes the sum of all elements in the list xs. There are\n   * multiple techniques that can be used for implementing this method, and\n   * you will learn during the class.\n   *\n   * For this example assignment you can use the following methods in class\n   * `List`:\n   *\n   *  - `xs.isEmpty: Boolean` returns `true` if the list `xs` is empty\n   *  - `xs.head: Int` returns the head element of the list `xs`. If the list\n   *    is empty an exception is thrown\n   *  - `xs.tail: List[Int]` returns the tail of the list `xs`, i.e. the the\n   *    list `xs` without its `head` element\n   *\n   *  \u0027\u0027Hint:\u0027\u0027 instead of writing a `for` or `while` loop, think of a recursive\n   *  solution.\n   *\n   * @param xs A list of natural numbers\n   * @return The sum of all elements in `xs`\n   */\n  def sum(xs: List[Int]): Int \u003d \n\n  /**\n   * This method returns the largest element in a list of integers. If the\n   * list `xs` is empty it throws a `java.util.NoSuchElementException`.\n   *\n   * You can use the same methods of the class `List` as mentioned above.\n   *\n   * \u0027\u0027Hint:\u0027\u0027 Again, think of a recursive solution instead of using looping\n   * constructs. You might need to define an auxiliary method.\n   *\n   * @param xs A list of natural numbers\n   * @return The largest element in `xs`\n   * @throws java.util.NoSuchElementException if `xs` is an empty list\n   */\n  def max(xs: List[Int]): Int \u003d ???\n"
+      }
+    ]
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: Illegal character in path at index 64: file:///Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course 1/example/src/main/scala/example/Lists.scala
+	at java.base/java.net.URI.create(URI.java:883)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:103)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:99)
+	at scala.meta.internal.parsing.Trees.tokenized(Trees.scala:112)
+	at scala.meta.internal.parsing.TokenEditDistance$.apply(TokenEditDistance.scala:383)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:195)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:164)
+	at scala.meta.internal.metals.Diagnostics.didChange(Diagnostics.scala:112)
+	at scala.meta.internal.metals.MetalsLanguageServer.didChange(MetalsLanguageServer.scala:1193)
+	... 16 more
+Caused by: java.net.URISyntaxException: Illegal character in path at index 64: file:///Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course 1/example/src/main/scala/example/Lists.scala
+	at java.base/java.net.URI$Parser.fail(URI.java:2915)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3086)
+	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3168)
+	at java.base/java.net.URI$Parser.parse(URI.java:3116)
+	at java.base/java.net.URI.<init>(URI.java:600)
+	at java.base/java.net.URI.create(URI.java:881)
+	... 24 more
+
+Mar 09, 2022 10:54:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.IllegalArgumentException: Illegal character in path at index 64: file:///Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course 1/example/src/main/scala/example/Lists.scala
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Illegal character in path at index 64: file:///Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course 1/example/src/main/scala/example/Lists.scala
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.IllegalArgumentException: Illegal character in path at index 64: file:///Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course 1/example/src/main/scala/example/Lists.scala
+	at java.base/java.net.URI.create(URI.java:883)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:103)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:99)
+	at scala.meta.internal.parsing.Trees.tokenized(Trees.scala:112)
+	at scala.meta.internal.parsing.TokenEditDistance$.apply(TokenEditDistance.scala:383)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForScala$3(FoldingRangeProvider.scala:38)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForScala$2(FoldingRangeProvider.scala:33)
+	at scala.Option$WithFilter.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForScala(FoldingRangeProvider.scala:31)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$2(MetalsLanguageServer.scala:1640)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+Caused by: java.net.URISyntaxException: Illegal character in path at index 64: file:///Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course 1/example/src/main/scala/example/Lists.scala
+	at java.base/java.net.URI$Parser.fail(URI.java:2915)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3086)
+	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3168)
+	at java.base/java.net.URI$Parser.parse(URI.java:3116)
+	at java.base/java.net.URI.<init>(URI.java:600)
+	at java.base/java.net.URI.create(URI.java:881)
+	... 19 more
+
+Mar 09, 2022 10:54:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.IllegalArgumentException: Illegal character in path at index 64: file:///Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course 1/example/src/main/scala/example/Lists.scala
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Illegal character in path at index 64: file:///Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course 1/example/src/main/scala/example/Lists.scala
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.IllegalArgumentException: Illegal character in path at index 64: file:///Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course 1/example/src/main/scala/example/Lists.scala
+	at java.base/java.net.URI.create(URI.java:883)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:103)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:99)
+	at scala.meta.internal.parsing.Trees.tokenized(Trees.scala:112)
+	at scala.meta.internal.parsing.TokenEditDistance$.apply(TokenEditDistance.scala:383)
+	at scala.meta.internal.metals.Buffers.tokenEditDistance(Buffers.scala:30)
+	at scala.meta.internal.metals.codelenses.RunTestCodeLens.codeLenses(RunTestCodeLens.scala:63)
+	at scala.meta.internal.metals.CodeLensProvider.$anonfun$findLenses$3(CodeLensProvider.scala:26)
+	at scala.collection.immutable.List.flatMap(List.scala:366)
+	at scala.meta.internal.metals.CodeLensProvider.$anonfun$findLenses$2(CodeLensProvider.scala:26)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.metals.CodeLensProvider.findLenses(CodeLensProvider.scala:24)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$2(MetalsLanguageServer.scala:1628)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$1(MetalsLanguageServer.scala:1626)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+Caused by: java.net.URISyntaxException: Illegal character in path at index 64: file:///Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course 1/example/src/main/scala/example/Lists.scala
+	at java.base/java.net.URI$Parser.fail(URI.java:2915)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3086)
+	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3168)
+	at java.base/java.net.URI$Parser.parse(URI.java:3116)
+	at java.base/java.net.URI.<init>(URI.java:600)
+	at java.base/java.net.URI.create(URI.java:881)
+	... 25 more
+
+Mar 09, 2022 10:54:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didChange",
+  "params": {
+    "textDocument": {
+      "version": 10,
+      "uri": "file:///Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course%201/example/src/main/scala/example/Lists.scala"
+    },
+    "contentChanges": [
+      {
+        "text": "package example\n\nobject Lists:\n\n  /**\n   * This method computes the sum of all elements in the list xs. There are\n   * multiple techniques that can be used for implementing this method, and\n   * you will learn during the class.\n   *\n   * For this example assignment you can use the following methods in class\n   * `List`:\n   *\n   *  - `xs.isEmpty: Boolean` returns `true` if the list `xs` is empty\n   *  - `xs.head: Int` returns the head element of the list `xs`. If the list\n   *    is empty an exception is thrown\n   *  - `xs.tail: List[Int]` returns the tail of the list `xs`, i.e. the the\n   *    list `xs` without its `head` element\n   *\n   *  \u0027\u0027Hint:\u0027\u0027 instead of writing a `for` or `while` loop, think of a recursive\n   *  solution.\n   *\n   * @param xs A list of natural numbers\n   * @return The sum of all elements in `xs`\n   */\n  def sum(xs: List[Int]): Int \u003d ???\n\n  /**\n   * This method returns the largest element in a list of integers. If the\n   * list `xs` is empty it throws a `java.util.NoSuchElementException`.\n   *\n   * You can use the same methods of the class `List` as mentioned above.\n   *\n   * \u0027\u0027Hint:\u0027\u0027 Again, think of a recursive solution instead of using looping\n   * constructs. You might need to define an auxiliary method.\n   *\n   * @param xs A list of natural numbers\n   * @return The largest element in `xs`\n   * @throws java.util.NoSuchElementException if `xs` is an empty list\n   */\n  def max(xs: List[Int]): Int \u003d ???\n"
+      }
+    ]
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: Illegal character in path at index 64: file:///Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course 1/example/src/main/scala/example/Lists.scala
+	at java.base/java.net.URI.create(URI.java:883)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:103)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:99)
+	at scala.meta.internal.parsing.Trees.tokenized(Trees.scala:112)
+	at scala.meta.internal.parsing.TokenEditDistance$.apply(TokenEditDistance.scala:383)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:195)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:164)
+	at scala.meta.internal.metals.Diagnostics.didChange(Diagnostics.scala:112)
+	at scala.meta.internal.metals.MetalsLanguageServer.didChange(MetalsLanguageServer.scala:1193)
+	... 16 more
+Caused by: java.net.URISyntaxException: Illegal character in path at index 64: file:///Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course 1/example/src/main/scala/example/Lists.scala
+	at java.base/java.net.URI$Parser.fail(URI.java:2915)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3086)
+	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3168)
+	at java.base/java.net.URI$Parser.parse(URI.java:3116)
+	at java.base/java.net.URI.<init>(URI.java:600)
+	at java.base/java.net.URI.create(URI.java:881)
+	... 24 more
+
