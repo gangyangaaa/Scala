@@ -45801,3 +45801,18 @@ Caused by: java.lang.IllegalArgumentException: 137 is not a valid line number, a
 2022.03.11 15:50:22 INFO  skipping build import with status 'Requested'
 Mar 11, 2022 4:03:19 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
+2022.03.11 16:03:51 WARN  no build target for: /Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course_1/recfun/src/main/scala/recfun/RecFun.scala
+2022.03.11 16:03:55 INFO  no build target found for /Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course_1/recfun/src/main/scala/recfun/RecFun.scala. Using presentation compiler with project's scala-library version: 3.1.1
+2022.03.11 16:03:56 INFO  time: code lens generation in 5.14s
+2022.03.11 16:03:57 WARN  no build target for: /Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course_1/recfun/src/test/scala/recfun/RecFunSuite.scala
+2022.03.11 16:04:08 WARN  no build target for: /Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course_1/recfun/src/main/scala/recfun/RecFunInterface.scala
+2022.03.11 16:04:16 WARN  no build target for: /Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course_1/recfun/src/main/scala/recfun/RecFun.scala
+2022.03.11 16:17:52 WARN  no build target for: /Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course_1/recfun/src/main/scala/recfun/RecFun.scala
+2022.03.11 16:21:19 WARN  no build target for: /Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course_1/recfun/src/test/scala/recfun/RecFunSuite.scala
+2022.03.11 16:36:52 WARN  no build target for: /Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course_1/recfun/src/main/scala/recfun/RecFun.scala
+2022.03.11 16:37:40 WARN  no build target for: /Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course_1/recfun/src/main/scala/recfun/RecFun.scala
+2022.03.11 16:37:57 WARN  no build target for: /Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course_1/recfun/src/main/scala/recfun/RecFun.scala
+2022.03.11 16:38:48 WARN  no build target for: /Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course_1/recfun/src/main/scala/recfun/RecFun.scala
+2022.03.11 16:54:36 WARN  no build target for: /Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course_1/recfun/src/main/scala/recfun/RecFun.scala
+2022.03.11 16:54:55 WARN  no build target for: /Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course_1/recfun/src/main/scala/recfun/RecFun.scala
+2022.03.11 16:57:10 WARN  no build target for: /Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course_1/recfun/src/main/scala/recfun/RecFun.scala
