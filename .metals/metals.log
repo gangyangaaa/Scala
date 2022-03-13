@@ -45816,3 +45816,17 @@ INFO: Unsupported notification method: $/setTrace
 2022.03.11 16:54:36 WARN  no build target for: /Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course_1/recfun/src/main/scala/recfun/RecFun.scala
 2022.03.11 16:54:55 WARN  no build target for: /Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course_1/recfun/src/main/scala/recfun/RecFun.scala
 2022.03.11 16:57:10 WARN  no build target for: /Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course_1/recfun/src/main/scala/recfun/RecFun.scala
+2022.03.11 19:46:14 INFO  shutting down Metals
+2022.03.13 15:12:22 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/.metals/lsp.trace.json or /Users/yanggang/Library/Caches/org.scalameta.metals/lsp.trace.json
+2022.03.13 15:12:22 INFO  logging to file /Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/.metals/metals.log
+2022.03.13 15:12:22 INFO  Started: Metals version 0.11.2 in workspace '/Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala' for client Visual Studio Code 1.65.0.
+2022.03.13 15:12:22 INFO  Parse release: 17.0.1
+2022.03.13 15:12:24 INFO  time: initialize in 1.53s
+2022.03.13 15:12:24 WARN  Build server is not auto-connectable.
+2022.03.13 15:12:24 INFO  skipping build import with status 'Requested'
+2022.03.13 15:12:25 WARN  no build target for: /Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course_1/recfun/src/main/scala/recfun/RecFun.scala
+2022.03.13 15:12:28 INFO  no build target found for /Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course_1/recfun/src/main/scala/recfun/RecFun.scala. Using presentation compiler with project's scala-library version: 3.1.1
+2022.03.13 15:12:29 INFO  time: code lens generation in 3.66s
+2022.03.13 15:12:35 WARN  no build target for: /Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course_1/recfun/src/test/scala/recfun/RecFunSuite.scala
+Mar 13, 2022 3:14:17 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
