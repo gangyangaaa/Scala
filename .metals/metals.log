@@ -45873,3 +45873,19 @@ INFO: Unsupported notification method: $/setTrace
 2022.03.13 17:50:28 WARN  no build target for: /Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course_1/funsets/src/test/scala/funsets/FunSetSuite.scala
 2022.03.13 17:52:31 WARN  no build target for: /Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course_1/funsets/src/test/scala/funsets/FunSetSuite.scala
 2022.03.13 17:53:29 WARN  no build target for: /Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/Course_1/funsets/src/test/scala/funsets/FunSetSuite.scala
+2022.03.13 18:00:00 INFO  shutting down Metals
+2022.03.16 08:43:06 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/.metals/lsp.trace.json or /Users/yanggang/Library/Caches/org.scalameta.metals/lsp.trace.json
+2022.03.16 08:43:06 INFO  logging to file /Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/.metals/metals.log
+2022.03.16 08:43:06 INFO  Started: Metals version 0.11.2 in workspace '/Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala' for client Visual Studio Code 1.65.2.
+2022.03.16 08:43:06 INFO  Parse release: 11
+2022.03.16 08:43:08 INFO  time: initialize in 1.65s
+2022.03.16 08:43:08 WARN  Build server is not auto-connectable.
+2022.03.16 08:43:09 INFO  skipping build import with status 'Requested'
+2022.03.16 08:43:39 INFO  shutting down Metals
+2022.03.16 12:49:30 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/.metals/lsp.trace.json or /Users/yanggang/Library/Caches/org.scalameta.metals/lsp.trace.json
+2022.03.16 12:49:31 INFO  logging to file /Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala/.metals/metals.log
+2022.03.16 12:49:31 INFO  Started: Metals version 0.11.2 in workspace '/Users/yanggang/Desktop/CSMaster/Pre-Courses/Scala' for client Visual Studio Code 1.65.2.
+2022.03.16 12:49:31 INFO  Parse release: 11
+2022.03.16 12:49:32 INFO  time: initialize in 1.69s
+2022.03.16 12:49:33 WARN  Build server is not auto-connectable.
+2022.03.16 12:49:33 INFO  skipping build import with status 'Requested'
